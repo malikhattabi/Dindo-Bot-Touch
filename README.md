@@ -84,4 +84,4 @@ Want to contribute? Check the [todo list](todo.md). You may also read the [contr
 
 ## License
 
-Dindo-bot is licensed under the [MIT](LICENSE) license.
+Touchydo-bot is licensed under the [GPL-3](LICENSE) license.
