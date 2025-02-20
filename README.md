@@ -4,7 +4,9 @@
 [![GTK](https://img.shields.io/badge/gtk-3.0-brightgreen.svg)](https://www.gtk.org/)
 [![OS](https://img.shields.io/badge/os-Linux-orange.svg)](https://www.ubuntu.com/download/desktop)
 
-Farming bot for Dofus game written in python & [GTK](https://www.gtk.org/).
+Farming bot for Dofus Touch game written in python & [GTK](https://www.gtk.org/).
+
+THIS IS A FORK OF [DINDO-BOT](https://github.com/Gamerium/Dindo-Bot/) THANKS TO AXEL !! (Original licence [here]())
 
 > :construction: version 3 is work in progress, you can test it or contribute on the [v3-alpha](https://github.com/AXeL-dev/Dindo-Bot/tree/v3-alpha) branch.
 
