@@ -1,10 +1,15 @@
-# <img src="icons/logo.png" alt="logo" width="32"> Dindo Bot
+# <img src="icons/logo.png" alt="logo" width="32"> Touchydo Bot
 
 [![Python](https://img.shields.io/badge/python%20%3E%3D-3.0-blue.svg)](https://www.python.org/)
 [![GTK](https://img.shields.io/badge/gtk-3.0-brightgreen.svg)](https://www.gtk.org/)
 [![OS](https://img.shields.io/badge/os-Linux-orange.svg)](https://www.ubuntu.com/download/desktop)
 
-Farming bot for Dofus game written in python & [GTK](https://www.gtk.org/).
+Farming bot for Dofus Touch game written in python & [GTK](https://www.gtk.org/).
+
+THIS IS A "FORK?" (Based of?) OF [DINDO-BOT](https://github.com/Gamerium/Dindo-Bot/), THANKS A LOT TO AXEL !! (Original licence [here](https://github.com/malikhattabi/Dindo-Bot-Touch/blob/master/DindobotLICENSE))
+I left the original fork network because this project is not going to the same direction as Dindo-bot (dindo is for dofus on PC).
+
+> :construction: version 3 is work in progress, you can test it or contribute on the [v3-alpha](https://github.com/AXeL-dev/Dindo-Bot/tree/v3-alpha) branch.
 
 [![screenshot](screenshot.png)](http://www.youtube.com/watch?v=1Qh_eNLuTYo "Watch Dindo-bot in action")
 
@@ -80,4 +85,4 @@ Want to contribute? Check the [todo list](todo.md). You may also read the [contr
 
 ## License
 
-Dindo-bot is licensed under the [MIT](LICENSE) license.
+Touchydo-bot is licensed under the [GPL-3](LICENSE) license.

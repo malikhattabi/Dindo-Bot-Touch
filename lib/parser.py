@@ -32,7 +32,7 @@ def replace_all_between(text, needle, substitute, starts_with, ends_with):
 			cursor_position += needle_position+1
 			text = text[needle_position+1:]
 			#print('not surrounded')
-		# else if not find
+		# else if not found
 		else:
 			#print('break')
 			break
@@ -80,7 +80,7 @@ def parse_data(data, key, subkeys=[]):
 	if key in data:
 		if subkeys:
 			count = len(subkeys)
-			many = {} # dict to store subkeys data if there are more than 1
+			many = {} # dict to store subkeys data if there is more than 1
 			for subkey in subkeys:
 				if subkey in data[key]:
 					if count == 1:
@@ -119,15 +119,13 @@ def parse_color(color, as_hex=False):
 	# To avoid problems if color was already decoded
 	if isinstance(color, tuple):
 		return color
+  
 	# check if RGB
-	if color.startswith('(') and color.endswith(')'):
+	elif color.startswith('(') and color.endswith(')'):
 		values = color[1:-1].split(',') # [1:-1] will remove the first & last parentheses '(' ')'
 		if len(values) == 3:
 			rgb = (int(values[0]), int(values[1]), int(values[2]))
-			if as_hex:
-				return rgb2hex(rgb)
-			else:
-				return rgb
+			return rgb2hex(rgb) if as_hex else rgb
 		else:
 			return None
 	# check if HEX
