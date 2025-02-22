@@ -14,18 +14,19 @@ APT_CMD=$(which apt)
 PACMAN_CMD=$(which pacman)
 
 # python version detection
-#PYTHON_VER=$(python -c"import sys; print(sys.version_info.major)")
-PYTHON_VER="3"
+PYTHON_VER=$(python -c"import sys; print(sys.version_info.major)")
 
 # install dependencies
 if [[ ! -z $APT_CMD ]]; then
   if [ $PYTHON_VER -eq 3 ]; then
-    sudo apt -y install python3-gi gir1.2-gtk-3.0 gir1.2-wnck-3.0 python3-xlib python3-pil scrot
+
+    sudo apt -y install python-gi gir1.2-gtk-3.0 gir1.2-wnck-3.0 python3-xlib python3-pil python3-numpy python3-opencv scrot
   else
-    sudo apt -y install python-gi gir1.2-gtk-3.0 gir1.2-wnck-3.0 python-xlib python-pil scrot
+    sudo apt -y install python-gi gir1.2-gtk-3.0 gir1.2-wnck-3.0 python-xlib python-pil python-numpy python-opencv scrot
+    
   fi
 elif [[ ! -z $PACMAN_CMD ]]; then
-  sudo pacman -S python-gobject gtk3 libwnck3 python-xlib python-pillow scrot
+  sudo pacman -S python-gobject gtk3 libwnck3 python-xlib python-pillow python-numpy opencv scrot
 else
   echo "error can't install dependencies"
   exit 1
