@@ -94,4 +94,4 @@ Thanks :heart:
 
 ## License
 
-Touchydo-bot is licensed under the [GPL-3](LICENSE) license.
+Touchydo-Bot is licensed under the [GPL-3](LICENSE) license.
