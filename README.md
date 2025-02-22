@@ -71,6 +71,7 @@ dindo-bot
 > Tips: For more safety, try changing bot paths from time to time.
 - The main goal of this bot is to simplify repetitive tasks and reduce boredom during your gameplay.
 - We do not encourage multi-boting and do not support it anyway (it destroys the server economy :grimacing:).
+- On Linux, Wayland is currently not supported so you will need to use X11 [#2](https://github.com/malikhattabi/Touchydo-bot/issues/2).
 - Windows & Mac OS are not ~~yet~~ supported [#1](https://github.com/AXeL-dev/Dindo-Bot/issues/1) [#8](https://github.com/AXeL-dev/Dindo-Bot/issues/8).
 
 ## Version History
