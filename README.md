@@ -82,6 +82,16 @@ dindo-bot
 
 Want to contribute? Check the [todo list](todo.md). You may also read the [contributing guidelines](https://github.com/AXeL-dev/contributing/blob/master/README.md).
 
+## Donations
+
+Personally I don't really want donations I just love what I do, but if you have some bucks to donate, you may wanna look at those charities below (if you send me a screenshot of your donation by mail I'll be the happiest on earth).
+
+[MSF](https://www.msf.org/donate)
+[ICRC](https://www.icrc.org/en/donate)
+[UNRWA](https://donate.unrwa.org/int/en/general)
+
+Thanks :heart:
+
 ## License
 
 Touchydo-bot is licensed under the [GPL-3](LICENSE) license.
