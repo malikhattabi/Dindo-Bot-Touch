@@ -22,13 +22,13 @@ A bot is a software that emulates a real game client in order to automate some t
 
 - **Easy control**: play, pause/resume or stop the bot like if you were using your favorite music player.
 - **Smart bot**: Dindo knows when your connection turns off and will wait for it to get back before proceeding or will automatically pause itself if it takes a long time.
-- **Multi accounts management**: you don't have to worry about switching between your accounts, Dindo can handle that for you :wink:.
+- ~~**Multi accounts management**: you don't have to worry about switching between your accounts, Dindo can handle that for you :wink:.~~
 - **Integrated Path & Maps builder**: easily create your own custom paths & farming maps.
 - **Keyboard shortcuts**.
 
 ## Use Cases
 
-- Auto-connect to your Dofus account(s).
+- ~~Auto-connect to your Dofus account(s).~~
 - Move around the map & save time for long dungeon paths, [paths](paths) pull requests are welcome :pray:.
 - Farming & jobs (:construction: this part still needs to be improved, also, the bot cannot handle fights yet :warning:).
 - Automated actions like flood :speech_balloon:.
