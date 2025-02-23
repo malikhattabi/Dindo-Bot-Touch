@@ -6,7 +6,7 @@
 
 Farming bot for Dofus Touch game written in python & [GTK](https://www.gtk.org/).
 
-THIS IS A PORT OF [DINDO-BOT](https://github.com/Gamerium/Dindo-Bot/) FOR DOFUS TOUCH, THANKS A LOT TO AXEL !! (License [here](https://github.com/malikhattabi/Dindo-Bot-Touch/blob/master/DindobotLICENSE))
+THIS IS A PORT OF [DINDO-BOT](https://github.com/Gamerium/Dindo-Bot/) FOR DOFUS TOUCH, THANKS A LOT TO AXEL !! (License [here](https://github.com/malikhattabi/Touchydo-bot/blob/master/LICENSE))
 
 I left the original fork network because this project is not going to the same direction as Dindo-bot (dindo is for dofus on PC).
 
