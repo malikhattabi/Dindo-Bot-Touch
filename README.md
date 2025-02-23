@@ -6,7 +6,7 @@
 
 Farming bot for Dofus Touch game written in python & [GTK](https://www.gtk.org/).
 
-THIS IS A PORT OF [DINDO-BOT](https://github.com/Gamerium/Dindo-Bot/) FOR DOFUS TOUCH, THANKS A LOT TO AXEL !! (Dindo-Bot/Original license [here](https://github.com/malikhattabi/Dindo-Bot-Touch/blob/master/DindobotLICENSE))
+THIS IS A PORT OF [DINDO-BOT](https://github.com/Gamerium/Dindo-Bot/) FOR DOFUS TOUCH, THANKS A LOT TO AXEL !! (License [here](https://github.com/malikhattabi/Dindo-Bot-Touch/blob/master/DindobotLICENSE))
 I left the original fork network because this project is not going to the same direction as Dindo-bot (dindo is for dofus on PC).
 
 [![screenshot](screenshot.png)](http://www.youtube.com/watch?v=1Qh_eNLuTYo "Watch Dindo-bot in action")
@@ -33,6 +33,8 @@ A bot is a software that emulates a real game client in order to automate some t
 - Automated actions like flood :speech_balloon:.
 
 ## Installation
+
+For now just don't it's not ready AT ALL.
 
 First, clone this repository using git or just [download](https://github.com/AXeL-dev/Dindo-Bot/archive/master.zip) & unzip it:
 
@@ -76,11 +78,11 @@ dindo-bot
 
 ## Version History
 
-- [v1.x](https://github.com/AXeL-dev/Dindo-Bot/tree/v1.x)
+- There is only one for now, it's the master branch.
 
 ## Contributing
 
-Want to contribute? Check the [todo list](todo.md). You may also read the [contributing guidelines](https://github.com/AXeL-dev/contributing/blob/master/README.md).
+Want to contribute? Check the [todo list](todo.md). You may also read the [contributing guidelines](https://github.com/malikhattabi/contributing).
 
 ## Donations
 
@@ -94,4 +96,4 @@ Thanks :heart:
 
 ## License
 
-Touchydo-Bot is licensed under the [GPL-3](LICENSE) license.
+Touchydo-Bot is licensed under the [MIT](LICENSE) license.
