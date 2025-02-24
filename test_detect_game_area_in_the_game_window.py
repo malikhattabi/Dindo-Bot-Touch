@@ -20,7 +20,7 @@ def get_game_window_list():
         for window in window_list:
             window_name = window.get_name()
             instance_name = window.get_class_instance_name()
-            if instance_name == 'dofus.exe' or instance_name == 'scrcpy':
+            if instance_name == 'scrcpy.exe' or instance_name == 'scrcpy':
                 game_window_list[window_name] = window.get_xid()
     except Exception as ex:
         print(ex)
@@ -61,18 +61,20 @@ def detect_game_display_area():
         pixels = image.load()
         
         # Analyze edges (top, bottom, left, right) for black spots
-        edge_threshold = 10  # Number of pixels to analyze from the edge
-        for x in range(width):
-            for y in range(edge_threshold):
-                if pixels[x, y] != (0, 0, 0) or pixels[x, height - y - 1] != (0, 0, 0):
-                    game_area = (game_area[0], y, game_area[2], height - y * 2)
-                    break
+        top_edge = 0
+        left_edge = 0
         
         for y in range(height):
-            for x in range(edge_threshold):
-                if pixels[x, y] != (0, 0, 0) or pixels[width - x - 1, y] != (0, 0, 0):
-                    game_area = (x, game_area[1], width - x * 2, game_area[3])
-                    break
+            if any(pixels[x, y] != (0, 0, 0) for x in range(width)):
+                top_edge = y
+                break
+
+        for x in range(width):
+            if any(pixels[x, y] != (0, 0, 0) for y in range(height)):
+                left_edge = x
+                break
+        
+        game_area = (left_edge, top_edge, width - left_edge, height - top_edge)
         
         return game_area
 
