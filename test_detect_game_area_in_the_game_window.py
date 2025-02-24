@@ -11,6 +11,8 @@ disp = display.Display()
 root = disp.screen().root
 NET_FRAME_EXTENTS = disp.intern_atom('_NET_FRAME_EXTENTS')
 
+#Warning: it can be imprecise, you might tweak edge_threshold for more precision.
+
 def get_game_window_list():
     game_window_list = {}
     try:
