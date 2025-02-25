@@ -6,7 +6,7 @@
 Movements = {
 	'UP':    {'x': 266, 'y': 1, 'width': 566, 'height': 456},
 	'LEFT':  {'x': 5, 'y': 224, 'width': 566, 'height': 456},
-	'RIGHT': {'x': 561, 'y': 225, 'width': 566, 'height': 456},
+	'RIGHT': {'x': 480, 'y': 225, 'width': 566, 'height': 456},
 	'DOWN':  {'x': 263, 'y': 397, 'width': 566, 'height': 456},
 	# TODO: rename 'width' & 'height' to 'windowSize' (this may impact many parts of code)
 }
