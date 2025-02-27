@@ -1,2 +1,0 @@
-You can call tools.detect_game_display_area() from tools in libs to detect the game area in a variable game.
-See main.py in gui line 928 is interessant. Also 805
